@@ -1,0 +1,542 @@
+@media(max-width: 1440px) {
+    .cabecalho .cartmenu .slidecart {
+        left: 1080px;
+    }
+    
+    
+    .categorias-principais img {
+        max-width: 100%;
+        height: 240px;
+    }
+
+    .categorias-principais h2 {
+        font-size: 18px;
+    }
+    
+    .categorias-principais h3 {
+        font-size: 18px;
+    }
+
+    .categorias-principais .jerseys-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .footwears-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .hats-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .pants-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .bags-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .glasses-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+
+    .background-header img {
+        height: 608px;
+    }
+
+    .footer {
+        padding-left: 200px;
+    }
+
+    .footer-mail-submit  .box-mail .textarea {
+        width: 200px;
+    }
+
+    .footer-mail-submit  .box-mail .buttonarea {
+        width: 100px;
+        right: 20px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .cabecalho .cartmenu .slidecart {
+        left: 664px;
+    }
+    
+    .categorias-principais {
+        padding: 10px;
+    }
+    
+    .categorias-principais img {
+        max-width: 240px;
+        height: 180px;
+    }
+
+    .categorias-principais h2 {
+        font-size: 16px;
+    }
+
+    .categorias-principais h3 {
+        font-size: 16px;
+    }
+
+    .categorias-principais .jerseys-categoria img {
+        max-width: 70px;
+        height: 70px;
+       
+    }
+    .categorias-principais .footwears-categoria img {
+        max-width: 70px;
+        height: 70px;
+        
+        
+    }
+    .categorias-principais .hats-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .pants-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .bags-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .glasses-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+
+    .footer {
+        padding: 10px;
+        
+        
+     }
+ 
+     .footer-mail-submit  .box-mail .textarea {
+         width: 300px;
+        
+         align-items: center;
+     }
+ 
+     .footer-mail-submit  .box-mail .buttonarea {
+        width: 100px;
+        right: 20px;
+     }
+}
+
+@media(max-width: 820px) {
+    .cabecalho .cartmenu .slidecart {
+        left: 460px;
+    }
+    .categorias-principais {
+        padding: 10px;
+        gap: 50px;
+    }
+    
+    .categorias-principais img {
+        max-width: 100%;
+        height: 180px;
+        
+    }
+
+    .categorias-principais h2 {
+        font-size: 14px;
+    }
+
+    .categorias-principais h3 {
+        font-size: 14px;
+    }
+
+    .categorias-principais .jerseys-categoria img {
+        max-width: 70px;
+        height: 70px;
+       
+    }
+    .categorias-principais .footwears-categoria img {
+        max-width: 70px;
+        height: 70px;
+        
+        
+    }
+    .categorias-principais .hats-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .pants-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .bags-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .glasses-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+
+    .footer {
+        padding: 10px;
+        gap: 20px;
+        padding-left: 50px;
+     }
+ 
+    .footer-rights {
+        max-width: 400px;
+    }
+
+     .footer-mail-submit  .box-mail .textarea {
+         width: 200px;
+        
+         align-items: center;
+     }
+ 
+     .footer-mail-submit  .box-mail .buttonarea {
+        width: 100px;
+        right: 20px;
+     }
+}
+
+@media(max-width: 768px) {
+    .cabecalho .cartmenu .slidecart {
+        left: 408px;
+    }
+    
+    .categorias-principais {
+        padding: 10px;
+        gap: 50px;
+    }
+    
+    .categorias-principais img {
+        max-width: 100%;
+        height: 180px;
+    }
+
+    .categorias-principais h2 {
+        font-size: 14px;
+    }
+
+    .categorias-principais h3 {
+        font-size: 14px;
+    }
+
+    .categorias-principais .jerseys-categoria img {
+        max-width: 70px;
+        height: 70px;
+       
+    }
+    .categorias-principais .footwears-categoria img {
+        max-width: 70px;
+        height: 70px;
+        
+        
+    }
+    .categorias-principais .hats-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .pants-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .bags-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .glasses-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+
+    .footer {
+        padding: 10px;
+        gap: 20px;
+        padding-left: 30px;
+     }
+ 
+    .footer-rights {
+        max-width: 400px;
+    }
+
+     .footer-mail-submit  .box-mail .textarea {
+         width: 200px;
+        
+         align-items: center;
+     }
+ 
+     .footer-mail-submit  .box-mail .buttonarea {
+        width: 100px;
+        right: 20px;
+     }
+}
+
+@media(max-width: 430px) {
+    .cabecalho .cartmenu .slidecart {
+        left: 70px;
+        z-index: 1;
+    }
+    
+    .categorias-principais {
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .categorias-principais img {
+        max-width: 300px;
+        height: 300px;
+        
+    }
+
+    .categorias-principais h2 {
+        font-size: 18px;
+    }
+    
+    .categorias-principais h3 {
+        font-size: 18px;
+    }
+
+    .categorias-principais .jerseys-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .footwears-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .hats-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .pants-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .bags-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .glasses-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+
+    .background-header img {
+        height: 1208px;
+        position: relative;
+        bottom: 390px;
+    }
+
+    .container-body {
+        position: relative;
+        bottom: 100px;
+    }
+
+    .footer {
+       flex-direction: column;
+       padding-left: 40px;
+    }
+
+    .footer-rights {
+        padding-right: 30px;
+    }
+
+    .footer-mail-submit  .box-mail .textarea {
+        width: 260px;
+        padding-left: 20px;
+        margin-top: 20px;
+        align-items: center;
+        position: relative;
+        bottom: 200px;
+    }
+
+    .footer-mail-submit  .box-mail .buttonarea {
+        width: 100px;
+        right: 20px;
+        position: relative;
+        bottom: 200px;
+    }
+}
+
+@media(max-width: 414px) {
+    .cabecalho .cartmenu .slidecart {
+        left: 54px;
+        z-index: 1;
+    }
+    
+    .categorias-principais {
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .categorias-principais img {
+        max-width: 300px;
+        height: 300px;
+        
+    }
+
+    .categorias-principais h2 {
+        font-size: 18px;
+    }
+    
+    .categorias-principais h3 {
+        font-size: 18px;
+    }
+
+    .categorias-principais .jerseys-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .footwears-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .hats-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .pants-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .bags-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .glasses-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+
+    .background-header img {
+        height: 1208px;
+        position: relative;
+        bottom: 390px;
+    }
+
+    .container-body {
+        position: relative;
+        bottom: 100px;
+    }
+
+    .footer {
+       flex-direction: column;
+       padding: 10px;
+       padding-left: 30px;
+    }
+
+    .footer-mail-submit  .box-mail .textarea {
+        width: 250px;
+        padding-left: 35px;
+        margin-top: 20px;
+        align-items: center;
+        position: relative;
+        bottom: 200px;
+    }
+
+    .footer-mail-submit  .box-mail .buttonarea {
+        width: 100px;
+        right: 15px;
+        position: relative;
+        bottom: 200px;
+    }
+}
+
+@media(max-width: 412px) {
+    .cabecalho .cartmenu .slidecart {
+        left: 54px;
+        z-index: 1;
+    }
+    
+    .categorias-principais {
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .categorias-principais img {
+        max-width: 300px;
+        height: 300px;
+        
+    }
+
+    .categorias-principais h2 {
+        font-size: 18px;
+    }
+    
+    .categorias-principais h3 {
+        font-size: 18px;
+    }
+
+    .categorias-principais .jerseys-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .footwears-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .hats-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .pants-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .bags-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+    .categorias-principais .glasses-categoria img {
+        max-width: 70px;
+        height: 70px;
+    }
+
+    .background-header img {
+        height: 1208px;
+        position: relative;
+        bottom: 390px;
+    }
+
+    .container-body {
+        position: relative;
+        bottom: 100px;
+    }
+
+    .footer {
+       flex-direction: column;
+       padding-left: 40px;
+    }
+
+    .footer-rights {
+        padding-right: 30px;
+    }
+
+    .footer-mail-submit  .box-mail .textarea {
+        width: 225px;
+        padding-left: 20px;
+        margin-top: 20px;
+        align-items: center;
+        position: relative;
+        bottom: 200px;
+    }
+
+    .footer-mail-submit  .box-mail .buttonarea {
+        width: 100px;
+        right: 20px;
+        position: relative;
+        bottom: 200px;
+    }
+}

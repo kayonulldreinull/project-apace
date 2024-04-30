@@ -1,0 +1,248 @@
+html {
+    color: #6F6F6F;
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    background-color: #E1D8C4;
+    font-family: "Mulish", sans-serif;
+    font-weight: 200;
+    margin: 0 auto;
+}
+.cabecalho .cartmenu {
+    display: block;
+    justify-content: flex-end;
+}
+
+
+.cabecalho .menu {
+    background-color: rgb(250, 250, 250);
+    color: #6F6F6F;
+    width: auto;
+    display: flex;
+    margin: 0px;
+    border-radius: 0px 0px 20px 20px;
+    justify-content: space-between;
+    padding: 13px;
+    padding-right: 40px;
+    align-items: center;
+}
+
+.cabecalho .menu label {
+    margin: 0;
+    padding: 0;
+    align-self: normal;
+}
+
+.cabecalho .menu a i {
+    font-size: 25px;
+    color: #000000;
+}
+
+.cabecalho .menu .logo {
+    font-weight: 200;
+    color: #6F6F6F;
+}
+
+.background-header  {
+    bottom: 15px;
+    z-index: -1;
+    position: relative;
+    width: 100%;
+    height: 308px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: lightgray 50%;
+    object-fit: cover;
+    background-position: center;
+}
+
+.background-header img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.container-body {
+    position: relative;
+    padding-top: 50px ;
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    border-radius: 21px;
+    background: #F3F1EC;
+    text-align: center;
+}
+
+.categorias-principais { 
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 20px;
+    gap: 100px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.categorias-principais .trapstar-puff {
+
+}
+
+.categorias-principais img {
+    width: 340px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 28px;
+    transition: 0.2s;
+}
+
+.container-img-text {
+    transition: 0.2s;
+}
+
+.container-img-text:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+.categorias-principais .jerseys-categoria img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 28px;
+}
+
+.categorias-principais .footwears-categoria img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 28px;
+}
+
+.categorias-principais .hats-categoria img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 28px;
+}
+
+.categorias-principais .pants-categoria img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 28px;
+}
+
+.categorias-principais .bags-categoria img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 28px;
+}
+
+.categorias-principais .glasses-categoria img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 28px;
+}
+
+.categorias-principais .jerseys-categoria {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.categorias-principais .footwears-categoria {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    letter-spacing: 4px;
+}
+.categorias-principais .hats-categoria {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.categorias-principais .pants-categoria {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
+
+.categorias-principais .bags-categoria {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.categorias-principais .glasses-categoria {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
+
+.footer {
+    background-color: #E1D8C4;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    padding-left: 400px;
+    height: auto;
+}
+
+.footer-rights img {
+    max-width: 100px;
+
+}
+
+.footer-rights {
+   text-align: left;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+}
+
+.footer-mail-submit {
+    display: flex;
+    align-items: center;   
+}
+
+.footer-mail-submit  .box-mail .textarea {
+    font-family: "Mulish", sans-serif;
+    letter-spacing: 3px;
+    background-color: #F3F1EC;
+    border: 1px solid #FFF;
+    width: 400px;
+    border-radius: 20px 0px 0px 20px;
+    padding: 10px;
+
+}
+
+.footer-mail-submit  .box-mail .buttonarea {
+    font-family: "Mulish", sans-serif;
+    letter-spacing: 3px;
+    background-color: #000000;
+    color: #E1D8C4;
+    margin-left: 0;
+    width: 120px;
+    border-radius: 20px;
+    padding: 11px;
+    position: relative;
+    right: 110px;   
+}

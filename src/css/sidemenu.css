@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slide {
+    display: flex;
+    flex-direction: column;
+    top: 1px;
+    height: 100%;
+    width: 360px;
+    position: absolute;
+    background-color: rgb(250, 250, 250);;
+    transition: 0.5s ease;
+    z-index: 1;
+    transform: translateX(-380px);
+    box-shadow: 0 0 10px rgb(0,0,0,0.3);
+    border-radius: 20px;
+}
+
+h3 {
+    color: black;
+    font-size: 16px;
+    text-align: right;
+    padding: 10px 0;
+    padding-right: 30px;
+    font-weight: 200;
+    pointer-events: none;
+    margin-top: 4px;
+    margin-bottom: 50px;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 20px;
+    
+}
+
+ul li a {
+    color: black;
+    font-weight: 200;
+    padding: 10px;
+    font-size: 26px;
+    display: block;
+    text-decoration: none;
+    padding-left: 25px;
+    transition: 0.2s;
+}
+
+ul li a:hover {
+    letter-spacing: 2px;
+    transform: scale(1.05);
+}
+
+ul hr {
+    color: black;
+    height: 2px;
+    width: 240px;
+    z-index: 3;
+}
+
+.sidemenu input {
+    display: none;
+    visibility: hidden;
+    -webkit-appearance: none;
+}
+
+.toggle {
+    position: absolute;
+    height: 30px;
+    top: 10px;
+    left: 20px;
+    width: 30px;
+    background-color: rgb(250, 250, 250);;
+    border-radius: 5px;
+    z-index: 2;
+    cursor: pointer;
+    /* box-shadow: 0 0 10px rgb(0,0,0,0.3); */
+}
+
+.toggle .common {
+    position: absolute;
+    height: 2px;
+    width: 20px;
+    background-color: #000;
+    border: 50px;
+    transition: 0.3s ease;
+}
+
+.toggle .top_line {
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.toggle .middle_line {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.toggle .bottom_line {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.sidemenu input:checked ~ .toggle .top_line {
+    left: 2px;
+    top: 14px;
+    width: 25px;
+    transform: rotate(45deg);
+}
+.sidemenu input:checked ~ .toggle .bottom_line {
+    left: 2px;
+    top: 14px;
+    width: 25px;
+    transform: rotate(-45deg);
+}
+.sidemenu input:checked ~ .toggle .middle_line {
+    opacity: 0;
+    transform: translateX(20px);
+}
+
+.sidemenu input:checked ~ .slide {
+    transform: translateX(0);
+}
+
+#terms-conditions {
+    color: #000;
+    padding-left: 25px;
+    padding-top: 25px;
+    transition: 0.2s
+}
+
+#acc-info {
+    color: #000;
+    padding-left: 25px;
+    padding-top: 25px;
+    transition: 0.2s
+}
+
+#delivery-info {
+    color: #000;
+    padding-left: 25px;
+    padding-top: 25px;
+    transition: 0.2s
+}
+
+#terms-conditions:hover {
+    letter-spacing: 1px;
+    transform: scale(1.02);
+}
+
+#acc-info:hover {
+    letter-spacing: 1px;
+    transform: scale(1.02);
+}
+
+#delivery-info:hover {
+    letter-spacing: 1px;
+    transform: scale(1.02);
+}
